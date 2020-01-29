@@ -9,20 +9,20 @@ rss: /atom.xml
 
 # Miscellaneous
 favicon: /favicon.ico
-brand: /images/hexo.svg
+brand: /images/crossed-arrows.svg
 
 # Ocean Video
 # Because I put videos in multiple formats on the same path, I just labeled the path here.
 ocean:
   overlay: true
-  path: /images/ocean/
+  path: /images/ireland/
   brand: /images/hexo-inverted.svg
 
 # Content
 excerpt_link: Read More...
 
 # Tags
-show_count: false
+show_count: true
 
 # Toc
 toc: true
@@ -32,9 +32,9 @@ fancybox: true
 
 # Gitalk
 gitalk:
-  enable: false # true
-  clientID: # GitHub Application Client ID
-  clientSecret: # Client Secret
-  repo: # Repository name
-  owner: # GitHub ID
-  admin: # GitHub ID
+  enable: true # true
+  clientID: 95b8cb4f85e51b8251dc # GitHub Application Client ID
+  clientSecret: 95b54c5509358b005f567e2a646651383a47e70e # Client Secret
+  repo: gitalk-repo # Repository name
+  owner: amaothree # GitHub ID
+  admin: amaothree # GitHub ID
